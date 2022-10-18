@@ -61,6 +61,8 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
         ])
         
         tableView.register(UINib(nibName: "SearchProductsTableViewCell", bundle: nil), forCellReuseIdentifier: "SearchProductsTableViewCell")
+//                self.tableView.rowHeight  = UITableView.automaticDimension
+//                self.tableView.estimatedRowHeight = 300
         configureTableViewDataSource(tableView)
     }
 
